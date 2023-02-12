@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container-last-ed {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.container-last-ed {
+    &.container-last-ed-1 {
+        background-image: url(../../images/LastEdition/background-last-ed-2.jpg);
+    }
+}
+
+/* Header CSS */
+.header-last-ed {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    padding-top: 5px;
+    margin-left: 0px;
+}
+
+/* Main Page CSS */
+.main-page-last-ed-container {
+    margin-top: 100px;
+}
+
+.main-page-last-ed-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.icon-main-page-last-ed {
+    width: 70px;
+    padding-bottom: 20px;
+}
+
+.subtitle-main-page-last-ed {
+    background-color: rgba($color: white, $alpha: 0.7);
+    color: rgb(57, 57, 57);
+    margin-top: 80px;
+    font-size: 25px;
+    width: 100%;
+}
+
+.arrow-down-last-ed-main-page {
+    display: inline-block;
+    width: 90px;
+    margin-top: 130px;
+}
+
+/* Intro CSS */
+.intro-last-ed {
+    margin-top: 100px;
+}
+
+/* Intro-Days CSS */
+.intro-last-ed-item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-concert {
+    width: 130px;
+    margin-bottom: 30px;
+}
+
+.intro-last-ed-item1-title {
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    font-size: 50px;
+    color: rgb(107, 199, 225);
+}
+
+.dropdown-menu-intro {
+    background-color: #212529;
+    color: rgb(107, 199, 225);
+    width: 180px;
+}
+
+.dropdown-title {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: rgb(107, 199, 225);
+}
+
+.dropdown-subtitle {
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    color: rgb(107, 199, 225);
+}
+
+.intro-last-ed-item1-description {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 250px;
+}
+
+/* Intro-Line CSS */
+.hr-last-ed {
+    color: white;
+    height: 3px;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*Intro-Stages CSS */
+.intro-last-ed-item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-stage {
+    width: 110px;
+    margin-bottom: 20px;
+}
+
+.intro-last-ed-item2-title {
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    font-size: 50px;
+    color: rgb(107, 199, 225);
+}
+
+.intro-last-ed-item2-description {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 20px 200px;
+}
+
+.btn-item {
+    background-color: #212529;
+    border: solid 2px #212529;
+    padding-top: 10px;
+    transition: 0.7s;
+
+    &:hover {
+        background-color: rgb(70, 134, 152);
+        color: white;
+        border: solid 2px white;
+    }
+}
+
+.icon-offcanvas {
+    color: rgb(107, 199, 225);
+    font-size: 20px;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.offcanvas-last-ed {
+    background-color: #212529;
+    color: white;
+    max-width: 300px;
+}
+
+.offcanvas-title-last-ed {
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.offcanvas-subtitle-last-ed {
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 18px;
+}
+
+.offcanvas-body-last-ed {
+    display: flex;
+    flex-direction: column;
+    padding-right: 60%;
+    gap: 30px;
+}
+
+.btn-offcanvas {
+    background-color: black;
+    color: rgb(107, 199, 225);
+    border: white 2px solid;
+
+    &:hover {
+        background-color: rgb(75, 144, 163);
+        color: white;
+        border: rgb(75, 144, 163) 2px solid;
+    }
+}
+
+.dropdown-menu-offcanvas {
+    background-color: black;
+}
+
+.dropdown-item {
+    &:hover {
+        color: rgb(107, 199, 225);
+    }
+}
+
+/* Best Concerts CSS */
+
+/* Best Concerts - Backgounds CSS */
+
+.container-carousel-last-ed {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.container-carousel-last-ed {
+    &.container-carousel-last-ed-1 {
+        background-image: url(../../images/LastEdition/foto1.png);
+    }
+
+    &.container-carousel-last-ed-2 {
+        background-image: url(../../images/LastEdition/green-day.jpg);
+    }
+
+    &.container-carousel-last-ed-3 {
+        background-image: url(../../images/LastEdition/coldplay.jpg);
+    }
+
+    &.container-carousel-last-ed-4 {
+        background-image: url(../../images/LastEdition/ironmaiden.jpg);
+    }
+
+    &.container-carousel-last-ed-5 {
+        background-image: url(../../images/LastEdition/racionais.jpg);
+    }
+
+    &.container-carousel-last-ed-6 {
+        background-image: url(../../images/LastEdition/justinbieber.jpg);
+    }
+}
+
+/* Best Concerts - Intro CSS */
+
+.intro-best-concerts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-best-concerts {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(107, 199, 225);
+}
+
+.subtitle-best-concerts {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.btn-best-concerts-main-page {
+    background-color: black;
+    color: rgb(107, 199, 225);
+    border: white 2px solid;
+
+    &:hover {
+        background-color: rgb(70, 134, 152);
+        color: white;
+        border: rgb(70, 134, 152) 2px solid;
+    }
+}
+
+/* Worst Concerts - Backgounds CSS */
+
+.container-carousel-last-ed {
+    &.container-carousel-last-ed-7 {
+        background-image: url(../../images/LastEdition/foto2.png);
+    }
+
+    &.container-carousel-last-ed-8 {
+        background-image: url(../../images/LastEdition/avril.jpg);
+    }
+
+    &.container-carousel-last-ed-9 {
+        background-image: url(../../images/LastEdition/guns.jpg);
+    }
+
+    &.container-carousel-last-ed-10 {
+        background-image: url(../../images/LastEdition/billyidol.jpg);
+    }
+
+    &.container-carousel-last-ed-11 {
+        background-image: url(../../images/LastEdition/megan.jpg);
+    }
+
+    &.container-carousel-last-ed-12 {
+        background-image: url(../../images/LastEdition/ritaora.jpg);
+    }
+}
+
+/* Worst Concerts - Intro CSS */
+
+.intro-worst-concerts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-worst-concerts {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(190, 43, 43);
+}
+
+.subtitle-worst-concerts {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.btn-worst-concerts-main-page {
+    background-color: black;
+    color: rgb(255, 60, 60);
+    border: white 2px solid;
+
+    &:hover {
+        background-color: rgb(135, 32, 32);
+        color: white;
+        border: white 2px solid;
+    }
+}
+
+/* Slides Carousel - Intro CSS */
+
+.container-carousel-last-ed-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-left: 100px;
+}
+
+.title-carousel-item-last-ed {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.btn-best-concerts {
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+
+    &:hover {
+        color: white;
+        border: 2px white solid;
+        background-color: rgb(70, 134, 152);
+    }
+}
+
+.btn-worst-concerts {
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+
+    &:hover {
+        color: white;
+        border: 2px white solid;
+        background-color: rgb(144, 33, 33);
+    }
+}
+
+/* Slides OffCanvas Best Concerts - Intro CSS */
+
+.offcanvas-body-best-concerts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.offcanvas-title-last-ed-best-concerts {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 8px;
+    color: rgb(107, 199, 225);
+}
+
+.offcanvas-description-last-ed-best-concerts {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+.btn-offcanvas-last-ed-best-concerts {
+    background-color: black;
+    color: rgb(107, 199, 225);
+    border: 2px white solid;
+    margin-right: 50px;
+
+    &:hover {
+        color: white;
+        border: 2px white solid;
+        background-color: rgb(70, 134, 152);
+    }
+}
+
+.offcanvas-box-last-ed {
+    background-color: #212529;
+    max-width: 300px;
+    padding-top: 20px;
+}
+
+/* Slides OffCanvas Worst Concerts - Intro CSS */
+
+.offcanvas-body-worst-concerts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.offcanvas-title-last-ed-worst-concerts {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 8px;
+    color: rgb(190, 43, 43);
+}
+
+.offcanvas-description-last-ed-worst-concerts {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+.btn-offcanvas-last-ed-worst-concerts {
+    background-color: black;
+    color: rgb(255, 60, 60);
+    border: 2px white solid;
+    margin-right: 50px;
+
+    &:hover {
+        color: white;
+        border: 2px white solid;
+        background-color: rgb(144, 33, 33);
+    }
+}

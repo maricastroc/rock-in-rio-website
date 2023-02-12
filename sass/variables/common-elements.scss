@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+}
+
+.my-logo {
+    width: 210px;
+}
+
+#nav-item {
+    font-weight: 500;
+    border-bottom: solid 2px transparent;
+
+    &:hover {
+        border-bottom: solid 2px white;
+    }
+}
+
+.email {
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    &:hover {
+        color: $link-hover;
+        border-bottom: 1px solid $link-hover;
+    }
+}
+
+.copy-name {
+    color: $copy-color;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: $link-hover;
+    }
+}

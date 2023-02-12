@@ -1,0 +1,1515 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+}
+
+.my-logo {
+    width: 210px;
+}
+
+#nav-item {
+    font-weight: 500;
+    border-bottom: solid 2px transparent;
+}
+#nav-item:hover {
+    border-bottom: solid 2px white;
+}
+
+.email {
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+.email:hover {
+    color: #b9b9b9;
+    border-bottom: 1px solid #b9b9b9;
+}
+
+.copy-name {
+    color: #555252;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #b9b9b9;
+}
+
+.container-left-home {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.container-right-home {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.container-left-home.container-home-1 {
+    background-image: url(../images/Home/background3.jpg);
+}
+.container-left-home.container-home-2 {
+    background-image: url(../images/Home/01_ed.jpg);
+}
+.container-left-home.container-home-4 {
+    background-image: url(../images/Home/03_ed.jpg);
+}
+.container-left-home.container-home-6 {
+    background-image: url(../images/Home/05_ed.jpg);
+}
+.container-left-home.container-home-8 {
+    background-image: url(../images/Home/07_ed.jpg);
+}
+.container-left-home.container-home-10 {
+    background-image: url(../images/Home/09_ed.jpg);
+}
+
+.container-right-home.container-home-3 {
+    background-image: url(../images/Home/02_ed.jpg);
+}
+.container-right-home.container-home-5 {
+    background-image: url(../images/Home/04_ed2.jpg);
+}
+.container-right-home.container-home-7 {
+    background-image: url(../images/Home/06_ed.jpg);
+}
+.container-right-home.container-home-9 {
+    background-image: url(../images/Home/08_ed2.jpg);
+}
+
+/* Header CSS */
+.header-home {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    padding-top: 5px;
+    margin-left: 0px;
+}
+
+/* Main Page CSS */
+.header-home-group {
+    margin-top: 100px;
+}
+
+.title-header-home {
+    font-family: "Roboto", sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.icon-header-home {
+    width: 70px;
+    padding-bottom: 10px;
+}
+
+.container-subtitle-header-home {
+    margin-left: 110px;
+    width: 500px;
+}
+
+.subtitle-header-home1 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    padding: 5px 10px;
+    line-height: 23px;
+    padding-top: 70px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.subtitle-header-home2 {
+    padding: 5px 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.arrow-down-home {
+    display: inline-block;
+    width: 90px;
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+
+/* Numbers Page CSS */
+.numbers-home {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.title-numbers-home {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.subtitle-numbers-home {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.subtitle-numbers-home2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* Editions Pages CSS */
+.header-carousel-home {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.icon-carousel {
+    width: 80px;
+    align-self: center;
+}
+
+.title-edition-home {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    width: 550px;
+    margin-bottom: 10px;
+}
+
+.paragraph-edition-home {
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 200;
+}
+
+.find-out-more {
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 70px;
+}
+
+.btn-find-out-more-blue {
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+}
+.btn-find-out-more-blue:hover {
+    color: white;
+    border: 2px white solid;
+    background-color: rgb(70, 134, 152);
+}
+
+.btn-find-out-more-red {
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+}
+.btn-find-out-more-red:hover {
+    color: white;
+    border: 2px white solid;
+    background-color: rgb(144, 33, 33);
+}
+
+.edition-left-home {
+    padding-left: 55%;
+    padding-top: 200px;
+    width: 1100px;
+}
+
+.edition-right-home {
+    padding-left: 5%;
+    padding-top: 200px;
+    width: 600px;
+}
+
+.container-home-2-2 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 150px;
+}
+
+.container-home-2-3 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 150px;
+}
+
+.container-home-2-4 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 150px;
+}
+
+.table-container-home-2-2 {
+    color: white;
+    width: 550px;
+}
+
+.table-container-home-2-3 {
+    color: white;
+    width: 750px;
+}
+
+.table-container-home-2-4 {
+    color: white;
+    width: 850px;
+}
+
+.date-table-home {
+    color: rgb(218, 23, 23);
+}
+
+.location-table-home {
+    color: rgb(122, 162, 213);
+}
+
+.title-header-home {
+    padding-top: 30px;
+}
+
+/* Download Page CSS */
+.download-text-home {
+    background-color: black;
+    padding-top: 240px;
+    padding-bottom: 240px;
+}
+
+/* Footer CSS */
+.footer-home {
+    background-color: black;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-download-home2 {
+    margin-left: 20px;
+}
+
+/* Media Query*/
+@media (max-width: 1225px) {
+    .edition-left-home {
+        padding-left: 45%;
+        padding-top: 200px;
+        width: 900px;
+    }
+    .edition-right-home {
+        padding-left: 8%;
+        padding-top: 200px;
+        width: 400px;
+    }
+    .table-container-home-2-2 {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .table-container-home-2-3 {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .table-container-home-2-4 {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 996px) {
+    .title-numbers-home {
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .subtitle-numbers-home1 {
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .subtitle-numbers-home2 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .title-edition-home {
+        font-size: 30px;
+    }
+    .edition-left-home {
+        padding-left: 53%;
+        padding-top: 200px;
+        width: 600px;
+    }
+    .edition-right-home {
+        padding-left: 0;
+        padding-top: 200px;
+        width: 300px;
+    }
+}
+@media (max-width: 805px) {
+    .numbers-home {
+        padding-top: 5px;
+        padding-bottom: 30px;
+        width: 150px;
+    }
+    .subtitle-numbers-home2 {
+        margin-bottom: 50px;
+    }
+    .container-left-home.container-home-1 {
+        background-image: url(../images/Home/background3.jpg);
+    }
+    .container-left-home.container-home-2 {
+        background-image: url(../images/Home/01_ed-vertical.jpg);
+    }
+    .container-left-home.container-home-4 {
+        background-image: url(../images/Home/03_ed-vertical.jpg);
+    }
+    .container-left-home.container-home-6 {
+        background-image: url(../images/Home/05_ed-vertical.jpg);
+    }
+    .container-left-home.container-home-8 {
+        background-image: url(../images/Home/07_ed-vertical.jpg);
+    }
+    .container-left-home.container-home-10 {
+        background-image: url(../images/Home/09_ed-vertical.jpg);
+    }
+    .container-right-home.container-home-3 {
+        background-image: url(../images/Home/02_ed-vertical.jpg);
+    }
+    .container-right-home.container-home-5 {
+        background-image: url(../images/Home/04_ed2-vertical.jpg);
+    }
+    .container-right-home.container-home-7 {
+        background-image: url(../images/Home/06_ed-vertical.jpg);
+    }
+    .container-right-home.container-home-9 {
+        background-image: url(../images/Home/08_ed2-vertical.jpg);
+    }
+}
+@media (max-width: 760px) {
+    .title-edition-home {
+        font-size: 25px;
+    }
+    .edition-left-home {
+        padding-left: 53%;
+        padding-top: 200px;
+        width: 500px;
+    }
+    .edition-right-home {
+        padding-left: 0;
+        padding-top: 200px;
+        width: 200px;
+    }
+}
+@media (max-width: 690px) {
+    .container-subtitle-header-home {
+        margin-left: 50px;
+        width: 300px;
+    }
+}
+@media (max-width: 641px) {
+    .edition-right-home {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 5%;
+        padding-top: 200px;
+        width: 200px;
+    }
+    .edition-left-home {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 300px;
+        padding-top: 200px;
+        width: 450px;
+    }
+}
+@media (max-width: 541px) {
+    .container-subtitle-header-home {
+        margin: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+    .subtitle-header-home1 {
+        text-align: center;
+    }
+    .subtitle-header-home2 {
+        text-align: center;
+    }
+}
+@media (max-width: 491px) {
+    .container-left-home {
+        display: flex;
+        flex-direction: column;
+        min-height: 700px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        margin-bottom: 100px;
+    }
+    .container-right-home {
+        display: flex;
+        flex-direction: column;
+        min-height: 700px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        margin-bottom: 100px;
+    }
+    .edition-right-home {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 200px;
+        width: 100%;
+    }
+    .edition-left-home {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 200px;
+        width: 100%;
+    }
+    .title-edition-home {
+        text-align: center;
+    }
+    .paragraph-edition-home {
+        text-align: center;
+    }
+    .container-left-home.container-home-2 {
+        background-image: url(../images/Home/01_ed-vertical-2.jpg);
+    }
+    .container-left-home.container-home-4 {
+        background-image: url(../images/Home/03_ed-vertical-2.jpg);
+    }
+    .container-left-home.container-home-6 {
+        background-image: url(../images/Home/05_ed-vertical-2.jpg);
+    }
+    .container-left-home.container-home-8 {
+        background-image: url(../images/Home/07_ed-vertical-2.jpg);
+    }
+    .container-left-home.container-home-10 {
+        background-image: url(../images/Home/09_ed-vertical-2.jpg);
+    }
+    .container-right-home.container-home-3 {
+        background-image: url(../images/Home/02_ed-vertical-2.jpg);
+    }
+    .container-right-home.container-home-5 {
+        background-image: url(../images/Home/04_ed2-vertical-2.jpg);
+    }
+    .container-right-home.container-home-7 {
+        background-image: url(../images/Home/06_ed-vertical-2.jpg);
+    }
+    .container-right-home.container-home-9 {
+        background-image: url(../images/Home/08_ed2-vertical-2.jpg);
+    }
+    .icon-carousel {
+        width: 50px;
+    }
+    .title-content-home {
+        font-size: 15px;
+    }
+    .table-container-home-2-2 {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    .table-container-home-2-3 {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    .table-container-home-2-4 {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    .date-table-home {
+        width: auto;
+    }
+}
+@media (max-width: 386px) {
+    .download-text-home {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+    }
+    #button-download-home1 {
+        margin-top: 10px;
+        width: 180px;
+    }
+    #button-download-home2 {
+        margin-top: 10px;
+        margin-left: 0;
+        width: 180px;
+    }
+}
+@media (max-width: 342px) {
+    .title-header-home {
+        font-size: 60px;
+    }
+    .container-left-home {
+        min-height: 900px;
+    }
+    .container-right-home {
+        min-height: 900px;
+    }
+    .edition-right-home {
+        height: 300px;
+    }
+    .edition-left-home {
+        height: 300px;
+    }
+    .icon-carousel {
+        width: 40px;
+    }
+    .title-content-home {
+        font-size: 12px;
+        max-width: 250px;
+    }
+    .table-container-home-2-2 {
+        font-size: 10px;
+    }
+    .table-container-home-2-3 {
+        font-size: 10px;
+    }
+    .table-container-home-2-4 {
+        font-size: 10px;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container-best-perf {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-best-perf.container-best-perf-1 {
+    background-image: url(../images/BestPerformances/background-bestperformances.jpg);
+}
+.container-best-perf.container-best-perf-2 {
+    background-image: url(../images/BestPerformances/queen.jpg);
+}
+.container-best-perf.container-best-perf-3 {
+    background-image: url(../images/BestPerformances/james-taylor.jpg);
+}
+.container-best-perf.container-best-perf-4 {
+    background-image: url(../images/BestPerformances/acdc.jpg);
+}
+.container-best-perf.container-best-perf-5 {
+    background-image: url(../images/BestPerformances/barao-vermelho.jpg);
+}
+.container-best-perf.container-best-perf-6 {
+    background-image: url(../images/BestPerformances/guns.jpg);
+}
+.container-best-perf.container-best-perf-7 {
+    background-image: url(../images/BestPerformances/redhot.jpg);
+}
+.container-best-perf.container-best-perf-8 {
+    background-image: url(../images/BestPerformances/iron-maiden.jpg);
+}
+.container-best-perf.container-best-perf-9 {
+    background-image: url(../images/BestPerformances/stevie.jpg);
+}
+.container-best-perf.container-best-perf-10 {
+    background-image: url(../images/BestPerformances/capital.jpg);
+}
+.container-best-perf.container-best-perf-11 {
+    background-image: url(../images/BestPerformances/aerosmith.jpg);
+}
+
+/* Header CSS */
+.header-best-perf {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    padding-top: 5px;
+    margin-left: 0px;
+}
+
+/* Main Page CSS */
+.main-page-best-perf {
+    margin-top: 100px;
+    font-family: "Roboto", sans-serif;
+}
+
+.icon-home-best-perf {
+    width: 70px;
+    padding-bottom: 20px;
+}
+
+.title-main-page-best-perf {
+    font-family: "Roboto", sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.subtitle-main-page-best-perf {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgb(57, 57, 57);
+    margin-top: 80px;
+    font-size: 25px;
+}
+
+.arrow-down-best-perf-main-page {
+    display: inline-block;
+    width: 90px;
+    margin-top: 130px;
+}
+
+/* Intro CSS */
+.intro-best-perf {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.img-intro-item1-best-perf {
+    width: 300px;
+}
+
+.legend-intro-item1-best-perf {
+    font-family: "Roboto", sans-serif;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.description1-intro-item2-best-perf {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 570px;
+    text-align: left;
+}
+
+.description2-intro-item2-best-perf {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    width: 570px;
+    text-align: left;
+    color: black;
+    padding: 3px 10px;
+    margin-top: 30px;
+}
+
+/* Best Performances Pages*/
+.title-items-best-perf {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.btn-intro-best-perf-red {
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+}
+.btn-intro-best-perf-red:hover {
+    color: white;
+    border: 2px white solid;
+    background-color: rgb(144, 33, 33);
+}
+
+.btn-intro-best-perf-blue {
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+}
+.btn-intro-best-perf-blue:hover {
+    color: white;
+    border: 2px white solid;
+    background-color: rgb(70, 134, 152);
+}
+
+.offcanvas-box {
+    background-color: #212529;
+}
+
+.offcanvas-title-best-perf-red {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 8px;
+    color: rgb(190, 43, 43);
+}
+
+.offcanvas-title-best-perf-blue {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 8px;
+    color: rgb(107, 199, 225);
+}
+
+.offcanvas-description {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+.btn-offcanvas-best-perf-red {
+    background-color: black;
+    color: rgb(255, 60, 60);
+    border: 2px white solid;
+    margin-right: 50px;
+}
+.btn-offcanvas-best-perf-red:hover {
+    color: white;
+    border: 2px white solid;
+    background-color: rgb(144, 33, 33);
+}
+
+.btn-offcanvas-best-perf-blue {
+    background-color: black;
+    color: rgb(107, 199, 225);
+    border: 2px white solid;
+    margin-right: 50px;
+}
+.btn-offcanvas-best-perf-blue:hover {
+    color: white;
+    border: 2px white solid;
+    background-color: rgb(70, 134, 152);
+}
+
+/* Download Page*/
+.download-text-best-perf {
+    background-color: black;
+    padding-top: 240px;
+    padding-bottom: 240px;
+}
+
+#button-download-best-perf-2 {
+    margin-left: 10px;
+}
+
+.arrow-down-best-perf-intro {
+    display: inline-block;
+    width: 90px;
+    margin-top: 20px;
+}
+
+.btn-click-2:hover {
+    background-color: rgb(135, 9, 9);
+    color: white;
+}
+
+/* Footer Best Performances Pages*/
+.footer-best-perf {
+    background-color: black;
+    min-height: 80px;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-back-to-top-best-perf {
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    color: white;
+    border: 2px white solid;
+    background-color: black;
+}
+.btn-back-to-top-best-perf:hover {
+    background-color: white;
+    color: black;
+    border: 2px transparent solid;
+    font-weight: 700;
+}
+
+/* Media Query*/
+@media (max-width: 880px) {
+    .description1-intro-item2-best-perf {
+        text-align: center;
+    }
+    .description2-intro-item2-best-perf {
+        text-align: center;
+    }
+    .main-page-best-perf {
+        margin-top: 200px;
+    }
+    .container-best-perf {
+        min-height: 800px;
+        margin-bottom: 80px;
+    }
+    .container-best-perf.container-best-perf-1 {
+        background-image: url(../images/BestPerformances/background-bestperformances-vertical.jpg);
+    }
+    .container-best-perf.container-best-perf-2 {
+        background-image: url(../images/BestPerformances/queen-vertical.jpg);
+    }
+    .container-best-perf.container-best-perf-3 {
+        background-image: url(../images/BestPerformances/james-taylor-vertical.jpg);
+    }
+    .container-best-perf.container-best-perf-14 {
+        background-image: url(../images/BestPerformances/acdc-vertical.jpg);
+    }
+    .container-best-perf.container-best-perf-5 {
+        background-image: url(../images/BestPerformances/barao-vertical2.jpg);
+    }
+    .container-best-perf.container-best-perf-6 {
+        background-image: url(../images/BestPerformances/guns-vertical.jpg);
+    }
+    .container-best-perf.container-best-perf-7 {
+        background-image: url(../images/BestPerformances/redhot-vertical.jpg);
+    }
+    .container-best-perf.container-best-perf-8 {
+        background-image: url(../images/BestPerformances/iron-maiden-vertical.jpg);
+    }
+    .container-best-perf.container-best-perf-9 {
+        background-image: url(../images/BestPerformances/stevie-vertical.jpg);
+    }
+    .container-best-perf.container-best-perf-10 {
+        background-image: url(../images/BestPerformances/capital-vertical.jpg);
+    }
+    .container-best-perf.container-best-perf-11 {
+        background-image: url(../images/BestPerformances/aerosmith-vertical.jpg);
+    }
+    .offcanvas-box {
+        background-color: white;
+        color: black;
+    }
+    .offcanvas-title {
+        font-weight: 700;
+    }
+    .offcanvas-description {
+        font-weight: 500;
+    }
+    .offcanvas-button {
+        background-color: black;
+        color: white;
+        border: solid 2px black;
+    }
+    .offcanvas-button:hover {
+        background-color: rgb(135, 9, 9);
+        color: white;
+        border: solid 2px rgb(135, 9, 9);
+    }
+}
+@media (max-width: 600px) {
+    .intro-best-perf {
+        padding-top: 150px;
+        padding-bottom: 120px;
+    }
+    .description1-intro-item2-best-perf {
+        width: 400px;
+    }
+    .description2-intro-item2-best-perf {
+        width: 400px;
+    }
+}
+@media (max-width: 522px) {
+    .download-text-best-perf {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer-best-perf {
+        margin-bottom: 20px;
+    }
+    #button-download-best-perf {
+        margin-top: 10px;
+    }
+    #button-download-best-perf-2 {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 430px) {
+    .intro-best-perf {
+        margin-bottom: 200px;
+    }
+    .description1-intro-item2-best-perf {
+        width: 300px;
+    }
+    .description2-intro-item2-best-perf {
+        width: 300px;
+    }
+    .container-best-perf.container-best-perf-1 {
+        background-image: url(../images/BestPerformances/background-bestperformances-vertical2.jpg);
+    }
+    .container-best-perf.container-best-perf-2 {
+        background-image: url(../images/BestPerformances/queen-vertical2.jpg);
+    }
+    .container-best-perf.container-best-perf-3 {
+        background-image: url(../images/BestPerformances/james-taylor-vertical2.jpg);
+    }
+    .container-best-perf.container-best-perf-14 {
+        background-image: url(../images/BestPerformances/acdc-vertical3.jpg);
+    }
+    .container-best-perf.container-best-perf-5 {
+        background-image: url(../images/BestPerformances/barao-vertical3.jpg);
+    }
+    .container-best-perf.container-best-perf-6 {
+        background-image: url(../images/BestPerformances/guns-vertical2.jpg);
+    }
+    .container-best-perf.container-best-perf-7 {
+        background-image: url(../images/BestPerformances/redhot-vertical2.jpg);
+    }
+    .container-best-perf.container-best-perf-8 {
+        background-image: url(../images/BestPerformances/iron-maiden-vertical2.jpg);
+    }
+    .container-best-perf.container-best-perf-9 {
+        background-image: url(../images/BestPerformances/stevie-vertical2.jpg);
+    }
+    .container-best-perf.container-best-perf-10 {
+        background-image: url(../images/BestPerformances/capital-vertical2.jpg);
+    }
+    .container-best-perf.container-best-perf-11 {
+        background-image: url(../images/BestPerformances/aerosmith-vertical2.jpg);
+    }
+}
+@media (max-width: 392px) {
+    .my-logo {
+        width: 150px;
+    }
+    .img-intro-item1-best-perf {
+        width: 220px;
+    }
+    .description1-intro-item2-best-perf {
+        width: 250px;
+    }
+    .description2-intro-item2-best-perf {
+        width: 250px;
+    }
+    .title-items-best-perf {
+        font-size: 20px;
+    }
+    .offcanvas-box {
+        background-color: white;
+        color: black;
+    }
+}
+@media (max-width: 358px) {
+    .footer-best-perf {
+        height: 90px;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 320px) {
+    .title-items-best-perf {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #button-back-to-top {
+        margin-left: -32px;
+    }
+    .offcanvas-box {
+        max-width: 220px;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container-last-ed {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.container-last-ed.container-last-ed-1 {
+    background-image: url(../images/LastEdition/background-last-ed-2.jpg);
+}
+
+/* Header CSS */
+.header-last-ed {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    padding-top: 5px;
+    margin-left: 0px;
+}
+
+/* Main Page CSS */
+.main-page-last-ed-container {
+    margin-top: 100px;
+}
+
+.main-page-last-ed-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.icon-main-page-last-ed {
+    width: 70px;
+    padding-bottom: 20px;
+}
+
+.subtitle-main-page-last-ed {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(57, 57, 57);
+    margin-top: 80px;
+    font-size: 25px;
+    width: 100%;
+}
+
+.arrow-down-last-ed-main-page {
+    display: inline-block;
+    width: 90px;
+    margin-top: 130px;
+}
+
+/* Intro CSS */
+.intro-last-ed {
+    margin-top: 100px;
+}
+
+/* Intro-Days CSS */
+.intro-last-ed-item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-concert {
+    width: 130px;
+    margin-bottom: 30px;
+}
+
+.intro-last-ed-item1-title {
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    font-size: 50px;
+    color: rgb(107, 199, 225);
+}
+
+.dropdown-menu-intro {
+    background-color: #212529;
+    color: rgb(107, 199, 225);
+    width: 180px;
+}
+
+.dropdown-title {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: rgb(107, 199, 225);
+}
+
+.dropdown-subtitle {
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    color: rgb(107, 199, 225);
+}
+
+.intro-last-ed-item1-description {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 250px;
+}
+
+/* Intro-Line CSS */
+.hr-last-ed {
+    color: white;
+    height: 3px;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*Intro-Stages CSS */
+.intro-last-ed-item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-stage {
+    width: 110px;
+    margin-bottom: 20px;
+}
+
+.intro-last-ed-item2-title {
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    font-size: 50px;
+    color: rgb(107, 199, 225);
+}
+
+.intro-last-ed-item2-description {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 20px 200px;
+}
+
+.btn-item {
+    background-color: #212529;
+    border: solid 2px #212529;
+    padding-top: 10px;
+    transition: 0.7s;
+}
+.btn-item:hover {
+    background-color: rgb(70, 134, 152);
+    color: white;
+    border: solid 2px white;
+}
+
+.icon-offcanvas {
+    color: rgb(107, 199, 225);
+    font-size: 20px;
+}
+.icon-offcanvas:hover {
+    color: white;
+}
+
+.offcanvas-last-ed {
+    background-color: #212529;
+    color: white;
+    max-width: 300px;
+}
+
+.offcanvas-title-last-ed {
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.offcanvas-subtitle-last-ed {
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 18px;
+}
+
+.offcanvas-body-last-ed {
+    display: flex;
+    flex-direction: column;
+    padding-right: 60%;
+    gap: 30px;
+}
+
+.btn-offcanvas {
+    background-color: black;
+    color: rgb(107, 199, 225);
+    border: white 2px solid;
+}
+.btn-offcanvas:hover {
+    background-color: rgb(75, 144, 163);
+    color: white;
+    border: rgb(75, 144, 163) 2px solid;
+}
+
+.dropdown-menu-offcanvas {
+    background-color: black;
+}
+
+.dropdown-item:hover {
+    color: rgb(107, 199, 225);
+}
+
+/* Best Concerts CSS */
+/* Best Concerts - Backgounds CSS */
+.container-carousel-last-ed {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.container-carousel-last-ed.container-carousel-last-ed-1 {
+    background-image: url(../images/LastEdition/foto1.png);
+}
+.container-carousel-last-ed.container-carousel-last-ed-2 {
+    background-image: url(../images/LastEdition/green-day.jpg);
+}
+.container-carousel-last-ed.container-carousel-last-ed-3 {
+    background-image: url(../images/LastEdition/coldplay.jpg);
+}
+.container-carousel-last-ed.container-carousel-last-ed-4 {
+    background-image: url(../images/LastEdition/ironmaiden.jpg);
+}
+.container-carousel-last-ed.container-carousel-last-ed-5 {
+    background-image: url(../images/LastEdition/racionais.jpg);
+}
+.container-carousel-last-ed.container-carousel-last-ed-6 {
+    background-image: url(../images/LastEdition/justinbieber.jpg);
+}
+
+/* Best Concerts - Intro CSS */
+.intro-best-concerts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-best-concerts {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(107, 199, 225);
+}
+
+.subtitle-best-concerts {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.btn-best-concerts-main-page {
+    background-color: black;
+    color: rgb(107, 199, 225);
+    border: white 2px solid;
+}
+.btn-best-concerts-main-page:hover {
+    background-color: rgb(70, 134, 152);
+    color: white;
+    border: rgb(70, 134, 152) 2px solid;
+}
+
+/* Worst Concerts - Backgounds CSS */
+.container-carousel-last-ed.container-carousel-last-ed-7 {
+    background-image: url(../images/LastEdition/foto2.png);
+}
+.container-carousel-last-ed.container-carousel-last-ed-8 {
+    background-image: url(../images/LastEdition/avril.jpg);
+}
+.container-carousel-last-ed.container-carousel-last-ed-9 {
+    background-image: url(../images/LastEdition/guns.jpg);
+}
+.container-carousel-last-ed.container-carousel-last-ed-10 {
+    background-image: url(../images/LastEdition/billyidol.jpg);
+}
+.container-carousel-last-ed.container-carousel-last-ed-11 {
+    background-image: url(../images/LastEdition/megan.jpg);
+}
+.container-carousel-last-ed.container-carousel-last-ed-12 {
+    background-image: url(../images/LastEdition/ritaora.jpg);
+}
+
+/* Worst Concerts - Intro CSS */
+.intro-worst-concerts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-worst-concerts {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(190, 43, 43);
+}
+
+.subtitle-worst-concerts {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.btn-worst-concerts-main-page {
+    background-color: black;
+    color: rgb(255, 60, 60);
+    border: white 2px solid;
+}
+.btn-worst-concerts-main-page:hover {
+    background-color: rgb(135, 32, 32);
+    color: white;
+    border: white 2px solid;
+}
+
+/* Slides Carousel - Intro CSS */
+.container-carousel-last-ed-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-left: 100px;
+}
+
+.title-carousel-item-last-ed {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.btn-best-concerts {
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+}
+.btn-best-concerts:hover {
+    color: white;
+    border: 2px white solid;
+    background-color: rgb(70, 134, 152);
+}
+
+.btn-worst-concerts {
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+}
+.btn-worst-concerts:hover {
+    color: white;
+    border: 2px white solid;
+    background-color: rgb(144, 33, 33);
+}
+
+/* Slides OffCanvas Best Concerts - Intro CSS */
+.offcanvas-body-best-concerts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.offcanvas-title-last-ed-best-concerts {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 8px;
+    color: rgb(107, 199, 225);
+}
+
+.offcanvas-description-last-ed-best-concerts {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+.btn-offcanvas-last-ed-best-concerts {
+    background-color: black;
+    color: rgb(107, 199, 225);
+    border: 2px white solid;
+    margin-right: 50px;
+}
+.btn-offcanvas-last-ed-best-concerts:hover {
+    color: white;
+    border: 2px white solid;
+    background-color: rgb(70, 134, 152);
+}
+
+.offcanvas-box-last-ed {
+    background-color: #212529;
+    max-width: 300px;
+    padding-top: 20px;
+}
+
+/* Slides OffCanvas Worst Concerts - Intro CSS */
+.offcanvas-body-worst-concerts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.offcanvas-title-last-ed-worst-concerts {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 8px;
+    color: rgb(190, 43, 43);
+}
+
+.offcanvas-description-last-ed-worst-concerts {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+.btn-offcanvas-last-ed-worst-concerts {
+    background-color: black;
+    color: rgb(255, 60, 60);
+    border: 2px white solid;
+    margin-right: 50px;
+}
+.btn-offcanvas-last-ed-worst-concerts:hover {
+    color: white;
+    border: 2px white solid;
+    background-color: rgb(144, 33, 33);
+}
+
+/*# sourceMappingURL=style.css.map */
