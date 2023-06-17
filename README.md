@@ -24,7 +24,7 @@ This was my initial project developed using Bootstrap, and it provided me with t
 > Clone the repository:
 
 ```bash
-git clone https://github.com/maricastroc/github-blog
+git clone https://github.com/maricastroc/rock-in-rio-website
 ```
 
 > Make sure you have the Live Server extension installed. If not, you can install it from the VSCode marketplace. Go to the Extensions view in VSCode (click on the square icon on the left sidebar) and search for "Live Server". Install the extension provided by Ritwick Dey.
